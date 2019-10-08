@@ -5,7 +5,7 @@ class NumberItem extends Component {
         return (
             <li>
                 {this.props.value}
-                <button onClick={this.props.remove} >X</button>
+                <button onClick={this.props.remove}>X</button>
             </li>
         )
     }
